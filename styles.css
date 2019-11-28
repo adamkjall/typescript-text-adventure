@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  /* color: white; */
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 210, 240);
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  width: 60%;
+  height: 70%;
+  /* background-color: rgb(126, 178, 230); */
+  /* background-color: rgb(36, 35, 35); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+
+.image-container {
+  height: 100%;
+  width: 100%;
+  background-position: 50% -10%;
+  background-repeat: no-repeat
+  /* background : url(./images/pig.png) */
+}
+
+.prompt {
+  margin: 0 5rem;
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  font-family:  Tahoma, sans-serif;
+  line-height: 2.3rem;
+  border-radius: 12px;
+  font-size: 1.3rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.buttons button {
+  border-radius: 12px;
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  outline: none;
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.39);
+  transition: filter .4s ease;
+}
+
+.buttons button:hover {
+  filter: invert(1);
+}
