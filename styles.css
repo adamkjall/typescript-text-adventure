@@ -77,3 +77,57 @@ body {
 .buttons button:hover {
   filter: invert(1);
 }
+
+@media (max-width: 600px) {
+  .prompt {
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    font-family:  Tahoma, sans-serif;
+    line-height: 1.4rem;
+    border-radius: 12px;
+    font-size: .9rem;
+  }
+
+  .wrapper {
+    width: 90%;
+    height: 90%;
+   
+  }
+}
+
+@media (max-width: 900px) {
+  .prompt {
+    margin: 0;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-family:  Tahoma, sans-serif;
+    line-height: 1.6rem;
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+
+  .wrapper {
+    width: 90%;
+    height: 60%;
+   
+  }
+}
+
+@media (min-width: 901px) {
+  .prompt {
+    margin: 0 2rem;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-family:  Tahoma, sans-serif;
+    line-height: 1.8rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+  }
+
+  .wrapper {
+    width: 60%;
+    height: 60%;
+   
+  }
+}
